@@ -1,2 +1,5 @@
 git init----初始化工作区
 git clone 项目网址----下载项目到本地
+git remote add origin 项目网址----将远程仓库命名为origin，并链接本地项目到远程仓库
+git branch 本地分支名称----创建本地分支
+git push -u 远程仓库名称 本地分支名称----将本地分支推送到远程仓库
