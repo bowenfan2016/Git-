@@ -1,6 +1,15 @@
+本地：工作区（其实就是目录或者文件夹），暂存区，版本库
+远程：远程仓库
+
 git init----初始化工作区
-git clone 项目网址----下载项目到本地
-git remote add origin 项目网址----将远程仓库命名为origin，并链接本地项目到远程仓库
+git remote add 远程仓库名（一般为origin） 项目网址----并链接本地项目到远程仓库
 git branch 本地分支名称----创建本地分支
+
+git add 文件名（.为所有文件）----添加文件到暂存区
+git commit -m '提交信息'----提交
 git push -u 远程仓库名称 本地分支名称----将本地分支推送到远程仓库
+
 git pull <远程主机名> <远程分支名>:<本地分支名>----将远程仓库拉取道本地分支
+git fetch
+git clone 项目网址----下载项目到本地
+git merge
